@@ -17,6 +17,7 @@ executable taffybar-sni
   build-depends:       base
                      , gi-gtk
                      , glib
+                     , haskell-gi-base
                      , gtk3>=0.14.8
                      , gtk-sni-tray
                      , taffybar
