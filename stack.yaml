@@ -1,0 +1,50 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- .
+- location:
+    git: git@github.com:IvanMalison/taffybar.git
+    commit: c744d634431fefb943e50e7e251074b4a5a65215
+  extra-dep: true
+- location:
+    git: git@github.com:IvanMalison/gtk-traymanager.git
+    commit: 517b24722b2cdab2dadbafa882ffcb6b8a1d01ff
+  extra-dep: true
+- location:
+    git: git@github.com:willdonnelly/dyre.git
+    commit: 11412752b483135e0c151ab90be17b217f837c4b
+  extra-dep: true
+- location:
+    git: https://github.com/IvanMalison/haskell-dbus
+    commit: b2f463be3d702e721f1fef41a5e07b45e60ec737
+  extra-dep: true
+- location:
+    git: https://github.com/IvanMalison/status-notifier-item
+    commit: 58ba0555c0842b4daa5b6001854384453af862ce
+  extra-dep: true
+- location:
+    git: https://github.com/IvanMalison/gtk-sni-tray
+    commit: b5f6428d3747678d1bcffb77d7c35ccffa3e1d23
+  extra-dep: true
+- location:
+    git: https://github.com/IvanMalison/gtk2hs
+    subdirs:
+      - gtk
+    commit: 757f9ae509096aed4ab6a18e354845be759f5d14
+  extra-dep: true
+extra-deps:
+- X11-xft-0.3.1
+- gi-dbusmenu-0.4.1
+- gi-dbusmenugtk3-0.4.1
+- gi-gdk-3.0.15
+- gi-gdkpixbuf-2.0.15
+- gi-gio-2.0.16
+- gi-gtk-3.0.21
+- gi-pango-1.0.16
+- gio-0.13.4.1
+- libxml-sax-0.7.5
+- rate-limit-1.1.1
+- spool-0.1
+- time-units-1.0.0
+- xml-helpers-1.0.0
+resolver: lts-11.1
