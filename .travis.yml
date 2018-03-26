@@ -14,8 +14,7 @@ before_install:
 
 matrix:
   include:
-  - env: GHCVER=8.0.2 STACK_YAML=stack-8.0.yaml
-    addons:
+  - addons:
       apt:
         packages:
           - libgtk-3-dev
