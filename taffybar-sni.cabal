@@ -7,7 +7,6 @@ maintainer:          IvanMalison@gmail.com
 copyright:           Ivan Malison
 category:            Web
 build-type:          Simple
-extra-source-files:  README.org
 cabal-version:       >=1.10
 
 executable taffybar-sni
