@@ -3,15 +3,15 @@ extra-package-dbs: []
 packages:
 - .
 - location:
-    git: git@github.com:IvanMalison/taffybar.git
+    git: https://github.com/IvanMalison/taffybar.git
     commit: c744d634431fefb943e50e7e251074b4a5a65215
   extra-dep: true
 - location:
-    git: git@github.com:IvanMalison/gtk-traymanager.git
+    git: https://github.com/IvanMalison/gtk-traymanager.git
     commit: 517b24722b2cdab2dadbafa882ffcb6b8a1d01ff
   extra-dep: true
 - location:
-    git: git@github.com:willdonnelly/dyre.git
+    git: https://github.com/willdonnelly/dyre.git
     commit: 11412752b483135e0c151ab90be17b217f837c4b
   extra-dep: true
 - location:
@@ -28,9 +28,9 @@ packages:
   extra-dep: true
 - location:
     git: https://github.com/IvanMalison/gtk2hs
+    commit: 757f9ae509096aed4ab6a18e354845be759f5d14
     subdirs:
       - gtk
-    commit: 757f9ae509096aed4ab6a18e354845be759f5d14
   extra-dep: true
 extra-deps:
 - X11-xft-0.3.1
